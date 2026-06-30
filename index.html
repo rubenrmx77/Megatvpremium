@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MegaTV Premium</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#090909;
+color:white;
+}
+
+header{
+background:#111;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+.logo{
+color:#00d4ff;
+font-size:30px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+height:500px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+url("https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=1400&q=80");
+background-size:cover;
+background-position:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero p{
+margin-top:15px;
+font-size:22px;
+}
+
+.boton{
+margin-top:30px;
+padding:15px 35px;
+background:#00d4ff;
+color:black;
+font-weight:bold;
+border-radius:30px;
+text-decoration:none;
+}
+
+section{
+padding:60px 20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#181818;
+padding:25px;
+border-radius:15px;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.precio{
+font-size:35px;
+color:#00ff88;
+margin:15px;
+}
+
+footer{
+background:#111;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">MegaTV Premium</div>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#">Planes</a>
+<a href="#">Contacto</a>
+</nav>
+
+</header>
+
+<div class="hero">
+
+<h1>Bienvenido a MegaTV Premium</h1>
+
+<p>Contáctanos para conocer nuestros servicios.</p>
+
+<a class="boton" href="https://wa.me/529841157507">WhatsApp</a>
+
+</div>
+
+<section>
+
+<h2 style="text-align:center;margin-bottom:40px;">Nuestros Planes</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>Básico</h2>
+
+<div class="precio">$60</div>
+
+<p>Consulta disponibilidad y características.</p>
+
+</div>
+
+<div class="card">
+
+<h2>Premium</h2>
+
+<div class="precio">$99</div>
+
+<p>Consulta disponibilidad y características.</p>
+
+</div>
+
+<div class="card">
+
+<h2>Familiar</h2>
+
+<div class="precio">$149</div>
+
+<p>Consulta disponibilidad y características.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Alartel Sistemas</h2>
+
+<p>WhatsApp: 9841157507</p>
+
+<p>Correo: alartelsistemasproyecta@gmail.com</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/529841157507">WhatsApp</a>
+
+</body>
+  </html>
